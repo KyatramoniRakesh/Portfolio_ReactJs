@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Project.css";
 import Menu from "./Menu";
-
+// import { Link } from "react-router-dom"; 
 function Portfolio() {
   const [items, setItems] = useState(Menu);
   const filterItem = (categoryItem) => {
@@ -46,9 +46,10 @@ function Portfolio() {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
+              <a href="https://github.com/KyatramoniRakesh?tab=repositories" className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </a>
+             
             </div>
           );
         })}

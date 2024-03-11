@@ -10,14 +10,17 @@ function Home() {
     <section className="home " id="home">
       <div className="intro">
         <img src={Me} alt="Me" className="home__img" />
-        <h1 className="home__name">Kyatramoni Rakesh</h1>
-        <span className="home__education">I'm a Full Stack developer</span>
+        <div className="about_1 ">
+          <h1 className="home__name">Kyatramoni Rakesh</h1>
+          <span className="home__education">I'm a Full Stack developer</span>
 
-        <HeaderSocials />
+          <HeaderSocials />
 
-        <a href="#contact" className="btn">Hire Me</a>
+          <a href="#contact" className="btn">Hire Me</a>
+        </div>
 
-        <ScrollDown />
+
+        {/* <ScrollDown /> */}
       </div>
 
       <Shapes />
